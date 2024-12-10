@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('./bgimage.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+   
+   
+}
+.container{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    height: 50vh;
+    width: 45vw;
+    border: 1px solid rgb(124, 113, 113);
+    margin: 7rem auto;
+    background-color: rgba(221, 100, 30, 0.47);
+    border-radius: 10px;
+    box-shadow: 2px 2px 14px grey;
+}
+h2{
+    text-align: center;
+    margin-top: 3rem;
+}
+.main{
+    /* border: 1px solid black; */
+    height: 50%;
+    box-shadow: 2px 2px 20px 2px rgb(226, 226, 161);
+    padding: 1rem;
+    margin: 1rem 0;
+
+    
+
+}
+#joke{
+   font-size: 20px;
+   font-weight: 700;
+ padding: 2rem;
+   text-align: center;
+ 
+}
+button{
+    width: 12rem;
+    height: 2rem;
+    color: rgb(209, 194, 194);
+    background-color: rgb(32, 87, 7);
+    border: none;
+    border-radius: 10px;
+margin-bottom: 3rem;
+    margin-left: 12rem;
+    font-weight: 600;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+}
+
+button:hover{
+    background-color: chocolate;
+    transition: .2s ease-in;
+    transform:translateY(-5px)
+}
+
+@media screen and (max-width:1120px){
+    .container{
+        height: 20rem;
+        width: 30rem;
+        margin: 10rem 14rem;
+    }
+    .main{
+        height: 10rem;
+        
+    }
+    button{
+        height: 2rem;
+    
+    width: 6rem;
+    margin-left: 10rem;
+}
+    
+}
